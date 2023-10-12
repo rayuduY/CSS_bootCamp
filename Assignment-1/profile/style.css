@@ -1,0 +1,30 @@
+.container {
+  width: 800px;
+  border: 1px solid lightslategray;
+  border-radius: 18px;
+  font: normal 32px "Lucida Sans";
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.overall_padding {
+  padding: 40px;
+}
+.header_section {
+  font-size: 32px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sub-header{
+  font-size: 30px;
+}
+.img_section img {
+  width: 25%;
+  padding: 10px 20px;
+}
+.profile_link {
+  padding: 16px 24px;
+  margin: 14px auto;
+  border-top: 1px solid lightslategray;
+}
+.profile_link a {
+  text-decoration: none;
+}
