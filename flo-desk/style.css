@@ -1,0 +1,30 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
+.btn {
+  width: 60%;
+  background: black;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.footer_section p {
+  width: 65%;
+  margin: 30px auto;
+}
+.disclaimer a,
+.footer_section a {
+  color: black;
+}
