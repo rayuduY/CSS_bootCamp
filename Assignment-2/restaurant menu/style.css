@@ -1,0 +1,62 @@
+.container {
+  width: 450px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 18px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.hero_img {
+  width: 100%;
+  border-radius: 10px;
+}
+.img_section{
+    position: relative;
+}
+.card_footer {
+  border-top: 1px solid lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card_footer img {
+  width: 25%;
+  float: left;
+  padding-right: 12px;
+}
+.card_footer span {
+  text-align: justify;
+  padding-top: 10px;
+}
+.promoted{
+    position: absolute;
+    padding: 1px 8px;
+    background-color: grey;
+    color: white;
+    top: 0;
+    left: 20px;
+    border-radius: 4px;
+    
+}
+.offer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 4px 10px;
+    background-color:darkturquoise;
+    color: white;
+}
+.timer{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    padding: 4px 6px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 4px;
+}
+h1{
+    margin-bottom: 0;
+}
+h4,.card_footer span{
+    color: grey;
+}

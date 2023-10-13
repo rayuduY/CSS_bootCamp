@@ -1,0 +1,54 @@
+.container {
+  width: 900px;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.hero_img {
+  width: 100%;
+  height: 400px;
+}
+
+.zomato_logo {
+  width: 500px;
+  height: 194px;
+  position: absolute;
+  border-radius: 50%;
+  top: 90px;
+  left: 180px;
+}
+
+h3 {
+  font-size: 30px;
+  position: absolute;
+  top: 200px;
+  left: 180px;
+  color: white;
+}
+.search_bar {
+  position: absolute;
+  top: 280px;
+  left: 180px;
+  background: #fff;
+  max-width: 560px;
+  width: 100%;
+  padding: 2px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+input {
+  width: 370px;
+  border: none;
+  height: 30px;
+}
+select {
+  width: 160px;
+  border: none;
+}
+.placeholder {
+  width: 16px;
+  height: 12px;
+  padding-left: 6px;
+  padding-top: 4px;
+}
