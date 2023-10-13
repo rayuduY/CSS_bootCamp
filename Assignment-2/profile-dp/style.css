@@ -1,0 +1,11 @@
+.container{
+    position: relative;
+}
+.profile{
+    position: absolute;
+    bottom: -80px;
+    left: 42%;
+    width: 160px;
+    height: 180px;
+    border-radius: 50%;
+}
