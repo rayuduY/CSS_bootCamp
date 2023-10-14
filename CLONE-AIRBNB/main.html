@@ -3,154 +3,393 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AIR BNB</title>
+    <title>Holiday Homes & Apartment Rentals - Airbnb</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- NAV BAR -->
-    <div class="nav_bar flex">
-      <img src="images/logo.svg" alt="logo" height="35px" />
-      <div class="filter flex">
-        <a href="" class="border_right">Anywhere</a>
-        <a href="" class="border_right">Any week</a>
-        <input type="search" placeholder="Add guests" />
-        <span>
-          <img src="images/search.svg" alt="search" height="14px" />
-        </span>
+    <div style="background: white; padding: 16px 50px">
+      <div class="nav_bar flex">
+        <img src="images/logo.svg" alt="logo" height="35px" />
+        <div class="filter flex">
+          <a href="" class="border_right">Anywhere</a>
+          <a href="" class="border_right">Any week</a>
+          <input type="search" placeholder="Add guests" />
+          <span>
+            <img src="images/search.svg" alt="search" height="14px" />
+          </span>
+        </div>
+        <div class="region flex">
+          <a href="">Airbnb your home</a>
+          <img src="images/world.png" alt="region" height="22px" />
+          <div class="menu flex">
+            <img src="images/hamburger-menu.svg" alt="menu" width="25px" />
+            <img src="images/profile.svg" alt="profile" width="25px" />
+          </div>
+        </div>
       </div>
-      <div class="region flex">
-        <a href="">Airbnb your home</a>
-        <img src="images/world.png" alt="region" height="22px" />
-        <div class="menu flex">
-          <img src="images/hamburger-menu.svg" alt="menu" width="25px" />
-          <img src="images/profile.svg" alt="profile" width="25px" />
+
+      <!-- Content -->
+      <div class="container">
+        <!-- menu bar -->
+        <div class="menu_bar flex">
+          <div class="flex text_img">
+            <img src="images/rooms.jpeg" alt="rooms" />
+            <p style="border-bottom: 2px solid blue; padding-bottom: 4px">
+              Rooms
+            </p>
+          </div>
+          <div class="flex text_img">
+            <img src="images/amazingpools.jpeg" alt="pools" />
+            <p>Amazing pools</p>
+          </div>
+          <div class="flex text_img">
+            <img src="images/farms.jpeg" alt="farms" />
+            <p>Farms</p>
+          </div>
+          <div class="flex text_img">
+            <img src="images/lakefront.jpeg" alt="lakefront" />
+            <p>Lakefront</p>
+          </div>
+          <div class="flex text_img">
+            <img src="images/amazingviews.jpeg" alt="amazing views" />
+            <p>Amazing views</p>
+          </div>
+          <div class="flex text_img">
+            <img src="images/omg.jpeg" alt="omg" />
+            <p>OMG!</p>
+          </div>
+          <div class="flex text_img">
+            <img src="images/countryside.jpeg" alt="country side" />
+            <p>Countryside</p>
+          </div>
+          <div class="flex text_img">
+            <img src="images/mansions.jpeg" alt="mansions" />
+            <p>Mansions</p>
+          </div>
+          <div class="flex text_img">
+            <img src="images/treehouse.jpeg" alt="tree house" />
+            <p>Treehouses</p>
+          </div>
+          <div class="flex text_img">
+            <img src="images/bread.jpeg" alt="bread" />
+            <p>Bread & Breakfasts</p>
+          </div>
+          <div class="right_section flex">
+            <span>
+              <img src="images/right_arrow.svg" alt="right arrow" />
+            </span>
+
+            <div class="main_filters flex">
+              <img src="images/filter.svg" alt="filter" height="30px" />
+              <p>Filters</p>
+            </div>
+            <div class="toggle flex">
+              <p>Display total before taxes</p>
+              <img
+                src="images/toggle-button.png"
+                alt="toggle"
+                height="60px"
+                width="22%"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Cards -->
+        <div class="cards_section flex">
+          <div class="card">
+            <div class="position">
+              <div style="height: 200px">
+                <img src="images/card1.webp" alt="bg_img" class="bg_img" />
+              </div>
+              <img
+                src="images/heart.svg"
+                alt="favorite icon"
+                class="fav_icon"
+              />
+              <div class="city_rating flex">
+                <p class="pb_6"><strong>Torino, Italy</strong></p>
+                <span
+                  ><img
+                    src="images/start.svg"
+                    alt="star"
+                    height="20px"
+                  />4.88</span
+                >
+              </div>
+              <div class="pb_6">Stay with Carmela</div>
+              <div class="pb_6">6-11 Nov</div>
+              <div class="rate"><strong>$4,031</strong> night</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="position">
+              <div style="height: 200px">
+                <img src="images/card2.webp" alt="bg_img" class="bg_img" />
+              </div>
+              <img
+                src="images/heart.svg"
+                alt="favorite icon"
+                class="fav_icon"
+              />
+              <div class="city_rating flex">
+                <p class="pb_6"><strong>Nantes, France</strong></p>
+                <span> <img src="images/start.svg" alt="star" />4.97 </span>
+              </div>
+              <div class="pb_6">Stay with Gowlen</div>
+              <div class="pb_6">12-17 Nov</div>
+              <div class="rate"><strong>$7,201</strong> night</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="position">
+              <div style="height: 200px">
+                <img src="images/card3.webp" alt="bg_img" class="bg_img" />
+              </div>
+              <img
+                src="images/heart.svg"
+                alt="favorite icon"
+                class="fav_icon"
+              />
+              <div class="city_rating flex">
+                <p class="pb_6"><strong>Lyon, France</strong></p>
+                <span
+                  ><img
+                    src="images/start.svg"
+                    alt="star"
+                    height="20px"
+                  />5.0</span
+                >
+              </div>
+              <div class="pb_6">Stay with Eduoard Coach trainer</div>
+              <div class="pb_6">22-27 Oct</div>
+              <div class="rate"><strong>$7,901</strong> night</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="position">
+              <div style="height: 200px">
+                <img src="images/card4.webp" alt="bg_img" class="bg_img" />
+              </div>
+              <img
+                src="images/heart.svg"
+                alt="favorite icon"
+                class="fav_icon"
+              />
+              <div class="city_rating flex">
+                <p class="pb_6"><strong>Milan, Italy</strong></p>
+                <span
+                  ><img
+                    src="images/start.svg"
+                    alt="star"
+                    height="20px"
+                  />5.0</span
+                >
+              </div>
+              <div class="pb_6">Stay with Valentina</div>
+              <div class="pb_6">15-20 Oct</div>
+              <div class="rate"><strong>$8,051</strong> night</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="position">
+              <div style="height: 200px">
+                <img src="images/card4.webp" alt="bg_img" class="bg_img" />
+              </div>
+              <img
+                src="images/heart.svg"
+                alt="favorite icon"
+                class="fav_icon"
+              />
+              <div class="city_rating flex">
+                <p class="pb_6"><strong>Milan, Italy</strong></p>
+                <span
+                  ><img
+                    src="images/start.svg"
+                    alt="star"
+                    height="20px"
+                  />5.0</span
+                >
+              </div>
+              <div class="pb_6">Stay with Valentina</div>
+              <div class="pb_6">15-20 Oct</div>
+              <div class="rate"><strong>$8,051</strong> night</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="position">
+              <div style="height: 200px">
+                <img src="images/card3.webp" alt="bg_img" class="bg_img" />
+              </div>
+              <img
+                src="images/heart.svg"
+                alt="favorite icon"
+                class="fav_icon"
+              />
+              <div class="city_rating flex">
+                <p class="pb_6"><strong>Milan, Italy</strong></p>
+                <span
+                  ><img
+                    src="images/start.svg"
+                    alt="star"
+                    height="20px"
+                  />5.0</span
+                >
+              </div>
+              <div class="pb_6">Stay with Valentina</div>
+              <div class="pb_6">15-20 Oct</div>
+              <div class="rate"><strong>$8,051</strong> night</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="position">
+              <div style="height: 200px">
+                <img src="images/card2.webp" alt="bg_img" class="bg_img" />
+              </div>
+              <img
+                src="images/heart.svg"
+                alt="favorite icon"
+                class="fav_icon"
+              />
+              <div class="city_rating flex">
+                <p class="pb_6"><strong>Milan, Italy</strong></p>
+                <span
+                  ><img
+                    src="images/start.svg"
+                    alt="star"
+                    height="20px"
+                  />5.0</span
+                >
+              </div>
+              <div class="pb_6">Stay with Valentina</div>
+              <div class="pb_6">15-20 Oct</div>
+              <div class="rate"><strong>$8,051</strong> night</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="position">
+              <div style="height: 200px">
+                <img src="images/card4.webp" alt="bg_img" class="bg_img" />
+              </div>
+              <img
+                src="images/heart.svg"
+                alt="favorite icon"
+                class="fav_icon"
+              />
+              <div class="city_rating flex">
+                <p class="pb_6"><strong>Milan, Italy</strong></p>
+                <span
+                  ><img
+                    src="images/start.svg"
+                    alt="star"
+                    height="20px"
+                  />5.0</span
+                >
+              </div>
+              <div class="pb_6">Stay with Valentina</div>
+              <div class="pb_6">15-20 Oct</div>
+              <div class="rate"><strong>$8,051</strong> night</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="position">
+              <div style="height: 200px">
+                <img src="images/card1.webp" alt="bg_img" class="bg_img" />
+              </div>
+              <img
+                src="images/heart.svg"
+                alt="favorite icon"
+                class="fav_icon"
+              />
+              <div class="city_rating flex">
+                <p class="pb_6"><strong>Milan, Italy</strong></p>
+                <span
+                  ><img
+                    src="images/start.svg"
+                    alt="star"
+                    height="20px"
+                  />5.0</span
+                >
+              </div>
+              <div class="pb_6">Stay with Valentina</div>
+              <div class="pb_6">15-20 Oct</div>
+              <div class="rate"><strong>$8,051</strong> night</div>
+            </div>
+          </div>
+        </div>
+        <div class="show_more flex">
+          <p>Continue exploring rooms</p>
+          <button class="shw_btn">Show more</button>
         </div>
       </div>
     </div>
-
-    <!-- Content -->
-    <div class="container">
-      <!-- menu bar -->
-      <div class="menu_bar flex">
-        <div class="flex text_img">
-          <img src="images/rooms.jpeg" alt="rooms" />
-          <p style="border-bottom: 2px solid blue; padding-bottom: 4px">
-            Rooms
-          </p>
+    <div class="inspiration">
+      <h3>Inspiration for future getaways</h3>
+      <div class="list flex">
+        <div style="border-bottom: 2px solid blue; padding-bottom: 2px">
+          Popular
         </div>
-        <div class="flex text_img">
-          <img src="images/amazingpools.jpeg" alt="pools" />
-          <p>Amazing pools</p>
-        </div>
-        <div class="flex text_img">
-          <img src="images/farms.jpeg" alt="farms" />
-          <p>Farms</p>
-        </div>
-        <div class="flex text_img">
-          <img src="images/lakefront.jpeg" alt="lakefront" />
-          <p>Lakefront</p>
-        </div>
-        <div class="flex text_img">
-          <img src="images/amazingviews.jpeg" alt="amazing views" />
-          <p>Amazing views</p>
-        </div>
-        <div class="flex text_img">
-          <img src="images/omg.jpeg" alt="omg" />
-          <p>OMG!</p>
-        </div>
-        <div class="flex text_img">
-          <img src="images/countryside.jpeg" alt="country side" />
-          <p>Countryside</p>
-        </div>
-        <div class="flex text_img">
-          <img src="images/mansions.jpeg" alt="mansions" />
-          <p>Mansions</p>
-        </div>
-        <div class="flex text_img">
-          <img src="images/treehouse.jpeg" alt="tree house" />
-          <p>Treehouses</p>
-        </div>
-        <div class="flex text_img">
-          <img src="images/bread.jpeg" alt="bread" />
-          <p>Bread & Breakfasts</p>
-        </div>
-        <div class="right_section flex">
-          <span>
-            <img src="images/right_arrow.svg" alt="right arrow" />
-          </span>
-
-          <div class="main_filters flex">
-            <img src="images/filter.svg" alt="filter" height="30px" />
-            <p>Filters</p>
+        <div>Arts & culture</div>
+        <div>Outdoors</div>
+        <div>Mountains</div>
+        <div>Beach</div>
+        <div>Unique stays</div>
+        <div>Categories</div>
+        <div>Things to do</div>
+      </div>
+      <div class="resorts flex">
+        <div style="width: 20%">
+          <div class="flex" style="flex-direction: column">
+            <strong>Canmore</strong>Petfriendly rentals
           </div>
-          <div class="toggle flex">
-            <p>Display total before taxes</p>
-            <img
-              src="images/toggle-button.png"
-              alt="toggle"
-              height="60px"
-              width="22%"
-            />
+        </div>
+        <div style="width: 20%">
+          <div class="flex" style="flex-direction: column">
+            <strong>Benelmadena</strong>Resorts
+          </div>
+        </div>
+        <div style="width: 20%">
+          <div class="flex" style="flex-direction: column">
+            <strong>Marbella</strong>Petfriendly rentals
+          </div>
+        </div>
+        <div style="width: 20%">
+          <div class="flex" style="flex-direction: column">
+            <strong>Mijas</strong>Petfriendly rentals
+          </div>
+        </div>
+        <div style="width: 20%">
+          <div class="flex" style="flex-direction: column">
+            <strong>Prescott</strong>Petfriendly rentals
+          </div>
+        </div>
+        <div style="width: 20%">
+          <div class="flex" style="flex-direction: column">
+            <strong>Scottsaddle</strong>Resorts
+          </div>
+        </div>
+        <div style="width: 20%">
+          <div class="flex" style="flex-direction: column">
+            <strong>Jasper</strong>Petfriendly rentals
+          </div>
+        </div>
+        <div style="width: 20%">
+          <div class="flex" style="flex-direction: column">
+            <strong>Libiza</strong>Resorts
           </div>
         </div>
       </div>
-      <!-- Cards -->
-      <div class="cards_section flex">
-        <div class="card">
-          <div class="position">
-            <img src="images/card1.webp" alt="bg_img" class="bg_img"/>
-            <img src="images/heart.svg" alt="favorite icon" class="fav_icon" />
-          </div>
-          <div>
-            <p>CURRENT PLACE</p>
-            <img src="" alt="star" />
-            <p>rating</p>
-          </div>
-          <div>Details</div>
-          <div>Date</div>
-          <div>$4,031 night</div>
-        </div>
-        <div class="card">
-          <div class="position">
-            <img src="images/card1.webp" alt="bg_img" class="bg_img"/>
-            <img src="images/heart.svg" alt="favorite icon" class="fav_icon" />
-          </div>
-          <div>
-            <p>CURRENT PLACE</p>
-            <img src="" alt="star" />
-            <p>rating</p>
-          </div>
-          <div>Details</div>
-          <div>Date</div>
-          <div>$4,031 night</div>
-        </div>
-        <div class="card">
-          <div class="">
-            <img src="" alt="bg_img" />
-            <img src="" alt="favorite icon" />
-          </div>
-          <div>
-            <p>CURRENT PLACE</p>
-            <img src="" alt="star" />
-            <p>rating</p>
-          </div>
-          <div>Details</div>
-          <div>Date</div>
-          <div>$4,031 night</div>
-        </div>
-        <div class="card">
-          <div class="">
-            <img src="" alt="bg_img" />
-            <img src="" alt="favorite icon" />
-          </div>
-          <div>
-            <p>CURRENT PLACE</p>
-            <img src="" alt="star" />
-            <p>rating</p>
-          </div>
-          <div>Details</div>
-          <div>Date</div>
-          <div>$4,031 night</div>
+      <div class="footer flex">
+        <div>© 2023 Airbnb, Inc.</div>
+        <div class="footer_items flex">
+          <span class="pl_8">.</span>
+          <p>Privacy</p>
+          <span class="pl_8">.</span>
+          <p>Terms</p>
+          <span class="pl_8">.</span>
+          <p>Sitemap</p>
+          <span class="pl_8">.</span>
+          <p>Company Details</p>
         </div>
       </div>
     </div>
